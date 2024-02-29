@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo and Writing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Photo and Writing Platform</h1>
+    </header>
+    <main>
+        <div id="postForm">
+            <h2>Create Post</h2>
+            <input type="file" id="imageInput" accept="image/*">
+            <textarea id="textInput" placeholder="Write something..."></textarea>
+            <button onclick="createPost()">Post</button>
+        </div>
+        <div id="postsContainer"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
